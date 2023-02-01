@@ -1,0 +1,11 @@
+:root {
+	--selection-color: rgb(0, 0, 0);
+  }
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-item.active {
+	color: var(--selection-color);
+}
