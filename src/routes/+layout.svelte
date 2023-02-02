@@ -1,6 +1,5 @@
 <script>
 	import NavBar from "$lib/NavBar.svelte";
-	import Copyright from 'svelte-copyright';
 	import "../../node_modules/bulma/css/bulma.css"
 	import "../bulmatheme.css"
 	import "../global.css"
