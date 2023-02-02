@@ -15,7 +15,7 @@
 <div class="columns p-4">
 	<div class="column is-offset-1">
 		<a href="https://blackdragonbe.itch.io/">
-			<div class="card scalehover" style="height: 100%">
+			<div class="card scalehover has-background-dark" style="height: 100%">
 				<div class="card-image">
 					<figure class="image is-4by3">
 						<img src={itch} alt="itch.io" />
@@ -43,7 +43,7 @@
 	</div>
 	<div class="column">
 		<a href="https://www.raywenderlich.com/gametech">
-			<div class="card scalehover" style="height: 100%">
+			<div class="card scalehover has-background-dark" style="height: 100%">
 				<div class="card-image">
 					<figure class="image is-4by3">
 						<img src={rw} alt="Kodeco" />
@@ -70,30 +70,32 @@
 		</a>
 	</div>
 	<div class="column">
-		<div class="card scalehover" style="height: 100%">
-			<div class="card-image">
-				<figure class="image is-4by3">
-					<a href="https://github.com/BlackDragonBE"><img src={gh} alt="Github" /></a>
-				</figure>
-			</div>
-			<div class="card-content">
-				<div class="media">
-					<div class="media-left">
-						<figure class="image is-48x48">
-							<i class="fab fa-github fa-3x" />
-						</figure>
+		<a href="https://github.com/BlackDragonBE">
+			<div class="card scalehover has-background-dark" style="height: 100%">
+				<div class="card-image">
+					<figure class="image is-4by3">
+						<img src={gh} alt="Github" />
+					</figure>
+				</div>
+				<div class="card-content">
+					<div class="media">
+						<div class="media-left">
+							<figure class="image is-48x48">
+								<i class="fab fa-github fa-3x" />
+							</figure>
+						</div>
+						<div class="media-content">
+							<p class="title is-4">Github</p>
+							<p class="subtitle is-6">Coder</p>
+						</div>
 					</div>
-					<div class="media-content">
-						<p class="title is-4"><a href="https://github.com/BlackDragonBE">Github</a></p>
-						<p class="subtitle is-6">Coder</p>
+					<div class="content">
+						There's a bunch of scripts and useful little applications I made over on my Github.
+						<br />
 					</div>
 				</div>
-				<div class="content">
-					There's a bunch of scripts and useful little applications I made over on my Github.
-					<br />
-				</div>
 			</div>
-		</div>
+		</a>
 	</div>
 	<div class="column is-1" />
 </div>
