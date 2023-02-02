@@ -14,7 +14,7 @@
 
 <div class="column is-one-third is-3-desktop is-2-widescreen">
 	<a href="{url}">
-		<div class="card has-background-dark">
+		<div class="card scalehover has-background-dark">
 			<figure class="image image is-16by9 is-fullwidth">
 				<img src={imageSrc} alt={name} style="object-fit: contain;background-color: black;" />
 			</figure>

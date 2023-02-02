@@ -1,8 +1,29 @@
+<script>
+	import eric from '$lib/images/eric.png';
+</script>
+
 <section class="section">
-	Black Dragon Software is consists of single (game) developer. Some of my hobbies include developing games, scripting and creating &amp;
-	printing 3D models.<br />
-	My weapons of choice are <a href="https://unity.com/">Unity</a>,
-	<a href="https://godotengine.org/">Godot</a>, <a href="https://www.blender.org/">Blender</a>,
-	<a href="https://code.visualstudio.com/">VS Code</a>
-	and <a href="https://www.raise3d.com/ideamaker/">Ideamaker</a>.
+	<div class="content">
+		<h2>About me</h2>
+		<p>Hi! I'm Eric Van de Kerckhove, also known as BlackDragonBE.</p>
+		<figure class="image is-128x128">
+			<img class="is-rounded" src={eric} />
+		</figure>
+
+		<p>
+			I've been creating games and applications as a hobby under the Black Dragon Software banner since somewhere around 2010. Since then, I've also
+			delved deeper into scripting, vector art, 3D modeling and 3D printing.
+		</p>
+		<h2>Tools</h2>
+		<p>This website was created by me using <a href="https://kit.svelte.dev/">Sveltekit</a> and <a href="https://bulma.io/">Bulma</a>.</p>
+		<p>My weapons of choice are:</p>
+		<ul>
+			<li><a href="https://unity.com/">Unity</a></li>
+			<li><a href="https://godotengine.org/">Godot</a></li>
+			<li><a href="https://www.blender.org/">Blender</a></li>
+			<li><a href="https://inkscape.org/">Inkscape</a></li>
+			<li><a href="https://www.raise3d.com/ideamaker/">Ideamaker</a></li>
+			<li><a href="https://code.visualstudio.com/">VS Code</a></li>
+		</ul>
+	</div>
 </section>

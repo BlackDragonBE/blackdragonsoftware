@@ -52,7 +52,7 @@
 			<div class="navbar-item">
 				<div class="field is-grouped">
 					<p class="control">
-						<a class="button is-primary" href="https://twitter.com/BlackDragonBE">
+						<a class="button is-info" href="https://twitter.com/BlackDragonBE">
 							<span class="icon">
 								<i class="fab fa-twitter" aria-hidden="true" />
 							</span>

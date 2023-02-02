@@ -9,11 +9,12 @@
 
 <slot />
 
-<footer class="footer">
+<footer class="footer mt-auto">
 	<div class="content has-text-centered">
 	  <p>
-		© 2023 - <script>document.write(new Date().getFullYear())</script> Eric Van de Kerckhove - All Rights Reserved.
+		© 2023 Black Dragon Software - All Rights Reserved.
 	  </p>
+	  <a href="/privacypolicy">Privacy policy</a> 
 	</div>
   </footer>
 
