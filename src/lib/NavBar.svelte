@@ -21,14 +21,7 @@
 
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<!-- svelte-ignore a11y-missing-attribute -->
-		<a
-			role="button"
-			class="navbar-burger {navbarClass}"
-			aria-label="menu"
-			aria-expanded="false"
-			data-target="navbarBasicExample"
-			on:click={() => (navbarActive = !navbarActive)}
-		>
+		<a role="button" class="navbar-burger {navbarClass}" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" on:click={() => (navbarActive = !navbarActive)}>
 			<span aria-hidden="true" />
 			<span aria-hidden="true" />
 			<span aria-hidden="true" />
