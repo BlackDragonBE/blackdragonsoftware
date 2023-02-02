@@ -13,3 +13,7 @@
 	font-weight: bold;
 	/* background-color: rgb(61, 61, 61); */
 }
+
+.card {
+    height: 100%;
+}
