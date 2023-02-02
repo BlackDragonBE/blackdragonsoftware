@@ -2,19 +2,19 @@
 	import GameEntry from '$lib/GameEntry.svelte';
 </script>
 
-<section class="hero mb-6">
+<section class="hero is-small is-dark">
 	<div class="hero-body">
 		<p class="title">Games</p>
-		<p class="subtitle">
-			You can find most of my games over on <a href="https://blackdragonbe.itch.io/">itch.io</a>, but I try to add some of my older ones here too if
-			possible.<br />
-			Any games with <b>[unfinished fragment]</b> in the title are prototypes and unfinished projects. They might offer a few minutes of fun, but they
-			can be quite rough!
+		<p class="">
+			This is an incomplete collection of games I made over the years. Most have been lost to time and hard drive failures unfortunately.
 		</p>
 	</div>
 </section>
 
-<!-- The itch game HTML goes here: -->
+<!--
+	Generated using itch_games_to_html.py 
+	The generated HTML goes here: 
+-->
 
 <div class="columns is-multiline p-5 mx-4">
 	<GameEntry

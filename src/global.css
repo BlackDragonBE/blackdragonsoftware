@@ -17,3 +17,10 @@
 .card {
     height: 100%;
 }
+
+div.card:hover {
+    /* background: #384040; */
+    /* top: -10px; */
+	/* transform: translate(0px, -10px); */
+	transform: scale(1.05, 1.05);
+}
