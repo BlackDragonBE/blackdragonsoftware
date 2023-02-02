@@ -1,11 +1,15 @@
 :root {
-	--selection-color: rgb(0, 0, 0);
+	--selection-color: rgb(255, 255, 255);
   }
 
 .navbar {
     border-radius: 0;
+	border-bottom: #c34e00;
+	border-bottom-style: solid;
 }
 
 .navbar-item.active {
 	color: var(--selection-color);
+	font-weight: bold;
+	/* background-color: rgb(61, 61, 61); */
 }
