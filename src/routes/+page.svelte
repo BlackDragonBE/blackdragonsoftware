@@ -5,20 +5,21 @@
 	import logo_full from '$lib/images/logo-full.png';
 </script>
 
-<div class="columns mt-4">
+<div class="columns mt-4 mx-0">
 	<div class="column is-half is-offset-one-quarter has-text-centered">
 		<img src={logo_full} />
 		<p class="subtitle">Digital creations by Eric Van de Kerckhove</p>
 	</div>
 </div>
 
-<div class="columns p-4">
+
+<div class="columns p-4 mx-0">
 	<div class="column is-offset-1">
 		<a href="https://blackdragonbe.itch.io/">
 			<div class="card scalehover has-background-dark" style="height: 100%">
 				<div class="card-image">
 					<figure class="image is-4by3">
-						<img src={itch} alt="itch.io" />
+						<img src={itch} alt="itch.io"  style="object-fit: contain;background-color: black;"/>
 					</figure>
 				</div>
 				<div class="card-content">
@@ -34,7 +35,7 @@
 						</div>
 					</div>
 					<div class="content">
-						I host most of my recent Unity games and old prototypes on itch.io. I'm a fan of game jams as well!
+						I host most of my recent games and old prototypes on itch.io. I'm a huge fan of game jams as well!
 						<br />
 					</div>
 				</div>
@@ -42,11 +43,11 @@
 		</a>
 	</div>
 	<div class="column">
-		<a href="https://www.raywenderlich.com/gametech">
+		<a href="https://www.kodeco.com/gametech">
 			<div class="card scalehover has-background-dark" style="height: 100%">
 				<div class="card-image">
 					<figure class="image is-4by3">
-						<img src={rw} alt="Kodeco" />
+						<img src={rw} alt="Kodeco" style="object-fit: contain;background-color: black;"/>
 					</figure>
 				</div>
 				<div class="card-content">
@@ -74,7 +75,7 @@
 			<div class="card scalehover has-background-dark" style="height: 100%">
 				<div class="card-image">
 					<figure class="image is-4by3">
-						<img src={gh} alt="Github" />
+						<img src={gh} alt="Github" style="object-fit: contain;background-color: black;" />
 					</figure>
 				</div>
 				<div class="card-content">
