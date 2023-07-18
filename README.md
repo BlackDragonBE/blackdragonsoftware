@@ -32,8 +32,11 @@ Preview the build:
 npm run preview
 ```
 
-Now copy the contents of the `build` directory to the to the website via FTP.
+Now copy the contents of the `build` directory to the to the website via FTP either manually or with the `deploy_to_website.py` script:
 
+```bash
+python scripts\deploy_to_website.py
+```
 
 ## Updating the games page
 
