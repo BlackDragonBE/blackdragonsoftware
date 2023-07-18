@@ -2,13 +2,19 @@ Powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/package
 
 ## Using the project
 
+Install Node.js using chocolatey:
+
+```bash
+choco install nodejs -y
+```
+
 Install the project dependencies:
 
 ```bash
 npm install
 ```
 
-Run the project:
+Run the project locally with live edit enabled:
 
 ```bash
 npm run dev -- --open
