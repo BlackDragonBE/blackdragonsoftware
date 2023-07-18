@@ -6,7 +6,7 @@
 	<div class="hero-body">
 		<p class="title">Games</p>
 		<p class="">
-			This is an incomplete collection of games I made over the years. Most have been lost to time and hard drive failures unfortunately.
+			This is an incomplete collection of games and other projects I made over the years. Most have been lost to time and hard drive failures unfortunately.
 		</p>
 	</div>
 </section>
