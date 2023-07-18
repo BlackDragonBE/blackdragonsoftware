@@ -34,6 +34,7 @@ npm run preview
 
 Now copy the contents of the `build` directory to the to the website via FTP.
 
+
 ## Updating the games page
 
 To automatically add games from itch.io to the games page, run the following:
