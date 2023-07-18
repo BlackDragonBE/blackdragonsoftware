@@ -1,8 +1,8 @@
 # Idea: periodically download the JSON, put it on the server and use that to serve content
 import requests
 import json
-import clipboard
 import html as h
+import re
 
 r = requests.get(
     "https://itch.io/api/1/bynC96fBgH2lKpAPqekjR4hWF4J5rtT7U7A8PUpX/my-games"
@@ -52,11 +52,11 @@ for game_json in games_json["games"]:
 template = """<GameEntry name="#TITLE#" url="#URL#" imageSrc="#THUMB_URL#" description="#DESCRIPTION#" releaseDate="#RELEASE_DATE#" #PLATFORMS# />
 """
 
-web = 'web '
-win = 'windows '
-mac = 'macos '
-linux = 'linux '
-android = 'android '
+web = "web "
+win = "windows "
+mac = "macos "
+linux = "linux "
+android = "android "
 
 html = ""
 
@@ -82,12 +82,26 @@ for game in game_data:
     new = new.replace("#DESCRIPTION#", h.escape(game.description, True))
     new = new.replace("#PLATFORMS#", platforms)
 
-    print(new)
-    print("\n")
+    print(game.title)
+    # print(new)
+    # print("\n")
     html += new
 
 
 html = '  <div class="columns is-multiline p-5 mx-4">' + html
 html = html + "  </div>"
-clipboard.copy(html)
-print("------\nHTML copied to clipboard!")
+
+# Open src/routes/Games/+page.svelte in read mode
+with open("src/routes/Games/+page.svelte", "r") as file:
+    # Read the contents of the file
+    contents = file.read()
+
+# Use regular expressions to remove the comments and the content between them
+pattern = r"(?<=<!--GAME_ENTRIES_START-->).*?(?=<!--GAME_ENTRIES_END-->)"
+updated_contents = re.sub(pattern, html, contents, flags=re.DOTALL)
+
+# Open src/routes/Games/+page.svelte in write mode and write the updated html
+with open("src/routes/Games/+page.svelte", "w") as file:
+    file.write(updated_contents)
+
+print("\n\nReplaced game entries html in src/routes/Games/+page.svelte")
