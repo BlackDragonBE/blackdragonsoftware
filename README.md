@@ -32,10 +32,10 @@ Preview the build:
 npm run preview
 ```
 
-Now copy the contents of the `build` directory to the to the website via FTP either manually or with the `deploy_to_website.py` script:
+Deploy to gh-pages:
 
 ```bash
-python scripts\deploy_to_website.py
+pnpm run deploy
 ```
 
 ## Updating the games page

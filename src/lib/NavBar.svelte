@@ -4,6 +4,7 @@
 	import NavBarItem from './NavBarItem.svelte';
 	import logo_full from '$lib/images/logo-full.png';
 
+
 	let navbarActive: boolean = false;
 	let navbarClass: string;
 	let path: string;
@@ -14,7 +15,7 @@
 
 <nav class="navbar is-primary" aria-label="main navigation">
 	<div class="navbar-brand">
-		<a class="navbar-item" href="/">
+		<a class="navbar-item" href="/blackdragonsoftware">
 			<img src={logo} width="40" height="28" />
 			Black Dragon Software
 		</a>
@@ -30,10 +31,10 @@
 
 	<div id="navbarBasicExample" class="navbar-menu {navbarClass}">
 		<div class="navbar-start">
-			<NavBarItem {path} link="/" linkName="Home" faIcon="fas fa-home" />
-			<NavBarItem {path} link="/Games" linkName="Games" faIcon="fas fa-gamepad" />
-			<NavBarItem {path} link="/3D" linkName="3D Art" faIcon="fas fa-cube" />
-			<NavBarItem {path} link="/About" linkName="About" faIcon="fas fa-cube" />
+			<NavBarItem {path} link="/blackdragonsoftware" linkName="Home" faIcon="fas fa-home" />
+			<NavBarItem {path} link="/blackdragonsoftware/Games" linkName="Games" faIcon="fas fa-gamepad" />
+			<NavBarItem {path} link="/blackdragonsoftware/3D" linkName="3D Art" faIcon="fas fa-cube" />
+			<NavBarItem {path} link="/blackdragonsoftware/About" linkName="About" faIcon="fas fa-cube" />
 
 			<!-- <div class="navbar-item has-dropdown is-hoverable">
 				<a class="navbar-link"> More </a>

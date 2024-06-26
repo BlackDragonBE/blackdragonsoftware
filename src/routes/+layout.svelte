@@ -3,6 +3,7 @@
 	import "../../node_modules/bulma/css/bulma.css"
 	import "../bulmatheme.css"
 	import "../global.css"
+
 </script>
 
 <NavBar />
@@ -12,7 +13,7 @@
 <footer class="footer mt-auto">
 	<div class="content has-text-centered">
 	  <p>
-		© 2023 Black Dragon Software - All Rights Reserved.
+		© 2024 Black Dragon Software - All Rights Reserved.
 	  </p>
 	  <a href="/privacypolicy">Privacy policy</a> 
 	</div>
