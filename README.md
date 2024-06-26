@@ -1,4 +1,4 @@
-Powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Source code for https://blackdragonbe.github.io/blackdragonsoftware
 
 ## Using the project
 
